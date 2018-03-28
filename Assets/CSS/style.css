@@ -1,0 +1,24 @@
+body{
+    background-color: blue;
+    color: white;
+}
+p {
+    font-size: 200%;
+    font-weight: 1.5em;
+}
+#marg {
+    padding: 100px 100px 100px 100px;
+    margin: 100px 100px 100px 100px;
+    border: 100px 100px 100px 100px;
+    text-align: center;
+}
+button {
+    background-color: red;
+}
+button:hover {
+    background-color: #631e1e;
+    color: grey;
+}
+form {
+    color: black;
+}

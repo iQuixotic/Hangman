@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+</head>
+
+<body>
+ <div id="marg">
+    <h1> Welcome to Hangman !!</h1>
+    <br>
+                <h1 id="eachBlank"></h1>
+                <div>
+                <form><input id="guess" type="text" name="guess"></form>
+                <br>
+                </div>
+                <br>
+    <button onclick="letterInput()">Guess a letter!!</button>
+    <button onclick="startUp()">Start a New Game</button>
+    <button onclick="wordGenerate()">Try a New Word</button>
+    <button onclick="splicer()">test</button>
+    <p id="answer">_________________________</p>
+    <p>Number of Guesses Remaining: <span id="numGuess">10</span></p>
+    <p>Letters Guessed: <span id="chosenLetter"> </span></p>
+    <p><span id="lost">We believe in you :)</span></p>
+    <p><span id="lost2"></span></p>
+    <p><span id="lost3"></span></p>
+    <p><span id="lost4"></span></p>
+    <p><span id="lost5"></span></p>
+
+</div>
+<script src="Assets/Javascript/hangman.js"></script>    
+</body>
+</html>
