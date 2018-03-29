@@ -283,7 +283,16 @@ function checkStatus () {
 //         gameOver = false;
 //     }
 // } 
-
+var myBool = true;
+function myBoolFunc() {
+    
+    if (myBool){
+        myBool = false;
+    }else {
+    myBool = true;
+}
+return 
+}
     
 // var wins = 0;
 // function checkStatus() {
@@ -320,26 +329,26 @@ function checkStatus () {
 
 // // This beautiful function runs in the background and takes advantage of myBoolShift() to toggle game modes
 // function toggleKeyStrokeMode() {
-//     if (myBool) {
-//         myBool = false;
-//     } else {
-//         myBool = true;
-//     }// sets the default
-//     if(myBool){ // you absolutely need this to check if your 'userkey should write anything or not
-//         document.onkeyup = function (event) {
-//             userkey = event.key;
-//             for (i = 26; i > 0; i--) { // because my i's will always fall within this index, the switch (myBool) is
-//                 if (myBool) {          // needed to be able to exit the for loop
-//                     if (userkey === chosenLetter[i]) {
-//                        letterReception();
-//                        console.log(chosenLetter[i]);
-//                         } 
+    // if (myBool) {
+    //     myBool = false;
+    // } else {
+    //     myBool = true;
+    // }// sets the default
+    // if(myBool){ // you absolutely need this to check if your 'userkey should write anything or not
+    //     document.onkeyup = function (event) {
+    //         userkey = event.key;
+    //         for (i = 26; i > 0; i--) { // because my i's will always fall within this index, the switch (myBool) is
+    //             if (myBool) {          // needed to be able to exit the for loop
+    //                 if (userkey === chosenLetter[i]) {
+    //                    letterReception();
+    //                    console.log(chosenLetter[i]);
+    //                     } 
                         
-//                     }
-//                 }
-//             }
-//         }
-//     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 
 
 //     function letterReception() {
