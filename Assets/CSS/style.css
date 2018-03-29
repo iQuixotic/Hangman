@@ -22,3 +22,13 @@ button:hover {
 form {
     color: black;
 }
+#a {
+    
+}
+.guessOptions {
+    color: rgb(255, 0, 0)
+}
+.guessed {
+    text-decoration: line-through blueviolet;
+    color: #000000;
+}
