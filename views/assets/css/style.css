@@ -1,34 +1,30 @@
-body{
-    background-color: blue;
-    color: white;
+html {
+    font-size: 10px;
 }
-p {
-    font-size: 200%;
-    font-weight: 1.5em;
+
+#Letter-panel {
+    display: flex;
+    flex-wrap: wrap;
 }
-#marg {
-    padding: 100px 100px 100px 100px;
-    margin: 100px 100px 100px 100px;
-    border: 100px 100px 100px 100px;
+
+.Letter_box {
+    cursor: pointer;
     text-align: center;
+    background-color: rgb(227, 159, 233);
+    border: 1px solid rgb(248, 201, 250);
+    border-radius: 5px;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 20px;
+    width: 4rem;
+    height: 4rem;
 }
-button {
-    background-color: red;
+
+.Letter_box:hover {
+    background-color: rgb(252, 223, 255);
 }
-button:hover {
-    background-color: #631e1e;
-    color: grey;
-}
-form {
-    color: black;
-}
-#a {
-    
-}
-.guessOptions {
-    color: rgb(255, 0, 0)
-}
-.guessed {
-    text-decoration: line-through blueviolet;
-    color: #000000;
+
+.Letter_bank-used {
+    font-size: 4rem;
+    color: red;
 }
