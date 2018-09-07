@@ -25,6 +25,8 @@ html {
 }
 
 .Letter_bank-used {
-    font-size: 4rem;
-    color: red;
+    color: rgb(161, 161, 161);
+    text-decoration: line-through red;
+    text-decoration-style: bold;
+    background-color: rgb(252, 223, 255);
 }
